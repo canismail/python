@@ -25,7 +25,8 @@ def mailSender(mail_addrs):
 		   server.starttls()
 		   server.login("xxx@gmail.com", "password")
 		   server.sendmail(sender, mail_addrs, message)         
-		   return "Successfully sent email"
 		   server.close()
+		   return "Successfully sent email"
 		except Exception as e:
+		   server.close()	
 		   return "Error: E-mail don't send  "+str(e)
