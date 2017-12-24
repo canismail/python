@@ -67,8 +67,7 @@ def calculateForest(list):
    # print(list)
     max = 0
     tmpList = list
-    print(len(findChildFast(listMap)))        
-            
+    print(len(findChildFast(listMap)))             
     return 0
 
 readValues()
