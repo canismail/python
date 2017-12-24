@@ -65,10 +65,7 @@ def findChildFast(list):  # find all fastlist that cleavable node
     return fastList
 def calculateForest(list):
    # print(list)
-    max = 0
-    tmpList = list
     print(len(findChildFast(listMap)))             
-    return 0
 
 readValues()
 calculateForest(listMap)
